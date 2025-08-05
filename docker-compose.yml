@@ -4,7 +4,7 @@ services:
     restart: always
 
   weather:
-    image: weather:latest
+    image: ghcr.io/angelkae7/meteo-app:latest
     build: .
     depends_on:
       - redis
